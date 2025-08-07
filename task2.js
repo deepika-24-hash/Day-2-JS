@@ -1,6 +1,6 @@
 //while loop
 let i = 2;
-while (i <= 10) {
+while (i <= 8) {
   console.log(i);
   i += 2;
 }
@@ -23,8 +23,9 @@ for (let i = 1; i <= n; i++) {
 console.log("Factorial:", p);
 
 //nested for loop
-for (let i = 5; i <= 5; i++) {     
+for (let i = 3; i <= 3; i++) {     
   for (let j = 1; j <= 10; j++) {      
     console.log(i + " * " + j + " = " + (i * j));
   }
+
 }
