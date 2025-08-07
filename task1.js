@@ -1,12 +1,12 @@
 //if condition
-let number = 10;
+let number = 7;
 
 if (number > 0) {
   console.log("The number is positive.");
 }
 
 //if-else condition
-let age = 65;
+let age = 61;
 
 if (age >= 60) {
   console.log("you are eligible for discount");
@@ -25,7 +25,7 @@ if (num > 0) {
   console.log("Zero");
 }
 
-let num1 = 1;
+let num1 = 5;
 
 if (num1> 0) {
   console.log("Positive number");
@@ -35,7 +35,7 @@ if (num1> 0) {
   console.log("Zero");
 }
 
-let num2 = -2;
+let num2 = -7;
 
 if (num2> 0) {
   console.log("Positive number");
@@ -46,7 +46,7 @@ if (num2> 0) {
 }
 
 //switch statement
-let ch = 2;
+let ch = 3;
 
 switch (ch) {
   case 1:
@@ -65,7 +65,7 @@ switch (ch) {
     console.log("Invalid choice");
 }
 
-let choice = 5;
+let choice = 6;
 
 switch (choice) {
   case 1:
@@ -83,3 +83,4 @@ switch (choice) {
   default:
     console.log("Invalid choice");
 }
+
