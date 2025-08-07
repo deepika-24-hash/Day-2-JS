@@ -1,5 +1,5 @@
 let choice;
-let num1, num2;
+let num, num1;
 
 while (true) {
 
@@ -19,30 +19,30 @@ while (true) {
   }
 
   
-  num1 = parseFloat(console.log("Enter first number:"));
-  num2 = parseFloat(console.log("Enter second number:"));
+  num = parseFloat(console.log("Enter first number:"));
+  num1 = parseFloat(console.log("Enter second number:"));
 
 
-  if (isNaN(num1) || isNaN(num2)) {
+  if (isNaN(num) || isNaN(num1)) {
     console.log("Invalid number Try again.");
     continue;
   }
 
   switch (choice) {
     case 1:
-      console.log("Result:", num1 + num2);
+      console.log("Result:", num + num1);
       break;
     case 2:
-      console.log("Result:", num1 - num2);
+      console.log("Result:", num - num1);
       break;
     case 3:
-      console.log("Result:", num1 * num2);
+      console.log("Result:", num * num1);
       break;
     case 4:
-      if (num2 === 0) {
+      if (num1 === 0) {
         console.log("Cannot divide by zero.");
       } else {
-        console.log("Result:", num1 / num2);
+        console.log("Result:", num / num1);
       }
       break;
     default:
@@ -51,4 +51,5 @@ while (true) {
   }
 
   console.log(""); 
+
 }
